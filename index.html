@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <svg viewBox="-80 -80 1500 1500">
+            <circle cx="0" cy="0" r="50" fill="yellow" stroke="orange" stroke-width="5" />
+            <line x1="10" y1="50" x2="10" y2="120" stroke="orange" stroke-width="3" />
+            <line x1="40" y1="30" x2="70" y2="110" stroke="orange" stroke-width="3" />
+            <line x1="50" y1="10" x2="140" y2="70" stroke="orange" stroke-width="3" />
+            <line x1="45" y1="-20" x2="150" y2="0" stroke="orange" stroke-width="3" />
+            <ellipse rx="50" ry="20" cx="100" cy="40" fill="white">
+                <animate attributeName="fill" values="white; grey" dur="5s" repeatCount="indefinite" />
+            </ellipse>
+            <rect x="100" y="100" rx="20" ry="20" width="100" height="40" fill="white" />
+            <ellipse rx="70" ry="20" cx="500" cy="70" fill="white">
+                <animate attributeName="fill" values="white; grey" dur="5s" repeatCount="indefinite" />
+            </ellipse>
+            <rect x="180" y="0" rx="20" ry="20" width="150" height="40" fill="white">
+                <animate attributeName="fill" values="white; grey" dur="5s" repeatCount="indefinite" />
+            </rect>
+            <polygon points="100 300, 200 100, 300 300" fill="grey" />
+            <polygon points="350 300, 400 100, 450 300" fill="grey" />
+            <rect x="300" y="110" rx="20" ry="20" width="120" height="30" fill="white" />
+            <rect x="80" y="300" rx="20" ry="20" width="400" height="50" fill="green" />
+            <text x="300" y="-50" stroke="blue">SVG-изображение</text>
+        </svg>
+
+    </div>
+</body>
+
+</html>
